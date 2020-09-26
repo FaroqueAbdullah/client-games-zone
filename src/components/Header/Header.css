@@ -1,0 +1,11 @@
+.header-container {
+  height: 10vh;
+}
+
+.header-title {
+  padding: 20px 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}

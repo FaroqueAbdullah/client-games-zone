@@ -1,0 +1,38 @@
+.messageContainer {
+  width: 1000;
+  display: flex;
+  padding-top: 5px;
+}
+
+.messageBox {
+  padding: 0px 10px;
+  border-radius: 25px;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.backgroundBlue {
+  background: blue;
+}
+
+.backgroundLight {
+  background: lightgoldenrodyellow;
+}
+
+.colorDark {
+  color: black;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.sentText {
+  color: gray;
+}
