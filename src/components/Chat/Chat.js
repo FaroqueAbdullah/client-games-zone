@@ -11,7 +11,6 @@ let socket;
 
 const Chat = ({location}) => {
   const [name, setName] = useState('');
-  const [room, setRoom] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
   const ENDPOINT = 'https://gameszone-server.herokuapp.com/'
@@ -21,7 +20,6 @@ const Chat = ({location}) => {
 
     socket = io(ENDPOINT)
 
-    setRoom(room);
     setName(name);
 
     socket.emit('join', { name, room }, () => {

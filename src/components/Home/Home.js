@@ -8,11 +8,11 @@ const Home = ({location}) => {
   const [name, setName] = useState('');
 
   useEffect(() => {
-    const {name, room} = queryString.parse(location.search);
+    const {name} = queryString.parse(location.search);
 
     setName(name);
 
-  },);
+  },[location.search]);
 
 
   return (
